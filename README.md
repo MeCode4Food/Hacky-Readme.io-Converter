@@ -21,13 +21,26 @@ npm i
 3. Access the (hopefully) published documentation page
 4. For each page, use the chrome debugger to obtain the table html.
   The target html should look like in section #Sample HTML
-5. Put it inside test.html
+5. Put it inside `v1/<somename>.html`
 6. Run ```node covert.js```
 7. Copy Markdown code from terminal
 8. Win
 
 ## Notes
 - Line breaks in tables are formatted as `<br>` even in markdown, and persists in the conversion
+
+## Sample Output
+```
+| Field Name |Field Type |Field Name in Data Lake |Viz Table Source |
+| --- | --- | --- | --- |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
+```
 
 ### Sample HTML
 ```html
@@ -111,16 +124,4 @@ npm i
 </div>
     </div>
   </div>
-```
-## Sample Output
-```
-| Field Name |Field Type |Field Name in Data Lake |Viz Table Source |
-| --- | --- | --- | --- |
-| value |value |value |value |
-| value |value |value |value |
-| value |value |value |value |
-| value |value |value |value |
-| value |value |value |value |
-| value |value |value |value |
-| value |value |value |value |
 ```
