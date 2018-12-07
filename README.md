@@ -26,6 +26,8 @@ npm i
 7. Copy Markdown code from terminal
 8. Win
 
+## Notes
+- Line breaks in tables are formatted as `<br>` even in markdown, and persists in the conversion
 
 ### Sample HTML
 ```html
