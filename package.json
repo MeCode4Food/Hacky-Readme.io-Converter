@@ -1,0 +1,22 @@
+{
+  "name": "readme.io-to-markdown",
+  "version": "1.0.0",
+  "description": "A simple script to transform export from readme.io to a markdown file.",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phantombuster/readme.io-to-markdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phantombuster/readme.io-to-markdown/issues"
+  },
+  "homepage": "https://github.com/phantombuster/readme.io-to-markdown#readme",
+  "dependencies": {
+    "jsdom": "^13.0.0"
+  }
+}
