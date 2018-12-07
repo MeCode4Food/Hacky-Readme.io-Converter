@@ -26,7 +26,7 @@ console.log(docment)
 text = "| ";
 columnNum = 0;
 
-row.forEach(element => {
+row.forEach((element, rowIndex) => {
   element.childNodes.forEach((p) => {
     text += p.innerHTML !== undefined ? `${ p.innerHTML.replace("<p>", "").replace("</p>", "").replace("\n","")} |`: ""
     if(p.innerHTML !== undefined) columnNum++ ;
@@ -40,7 +40,7 @@ row.forEach(element => {
     }
     text += `|`
   }
-  text += `\n| `
+  text += rowIndex === row.length - 1 ? "" : `\n| `;
 });
 
 console.log(text);

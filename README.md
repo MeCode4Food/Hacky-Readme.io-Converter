@@ -30,673 +30,95 @@ npm i
 ### Sample HTML
 ```html
 <div class="block-parameters-table">
-    <div class="table">
-      <div class="tr">
-        <div class="th">Field Name</div>
-        <div class="th">Field Type</div>
-        <div class="th">Field Name in Data Lake</div>
-        <div class="th">Viz Table Source</div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
-      <div class="tr">
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-        <div class="td"><p>value</p>
-  </div>
-      </div>
+    <div class="block-parameters-table">
+  <div class="table">
+    <div class="tr">
+      <div class="th">Field Name</div>
+      <div class="th">Field Type</div>
+      <div class="th">Field Name in Data Lake</div>
+      <div class="th">Viz Table Source</div>
+    </div>
+    <div class="tr">
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+    </div>
+    <div class="tr">
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+    </div>
+    <div class="tr">
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+    </div>
+    <div class="tr">
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+    </div>
+    <div class="tr">
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+    </div>
+    <div class="tr">
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+    </div>
+    <div class="tr">
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
+      <div class="td"><p>value</p>
+</div>
     </div>
   </div>
+```
+## Sample Output
+```
+| Field Name |Field Type |Field Name in Data Lake |Viz Table Source |
+| --- | --- | --- | --- |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
+| value |value |value |value |
 ```
