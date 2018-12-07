@@ -29,7 +29,7 @@ npm i
 ## Notes
 - Line breaks in tables are formatted as `<br>` even in markdown, and persists in the conversion
 
-## Sample Output
+### Sample Output
 ```
 | Field Name |Field Type |Field Name in Data Lake |Viz Table Source |
 | --- | --- | --- | --- |
